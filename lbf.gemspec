@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Forrest Fleming"]
   spec.email         = ["ffleming@oversee.net"]
   spec.summary       = %q{Gem for making requests from LBF API}
-  spec.description   = %q{Pile of service objects for making requests to the LBF API and its responses}
-  spec.homepage      = "https://github.com/Oversee/Travel-LBFSoap"
+  spec.description   = %q{Service objects for making requests to the LBF API and parsing its responses}
+  spec.homepage      = "https://github.com/oversee-ffleming/lbf"
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
