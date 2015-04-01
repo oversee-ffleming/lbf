@@ -11,8 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Gem for making requests from LBF API}
   spec.description   = %q{Pile of service objects for making requests to the LBF API and its responses}
   spec.homepage      = "https://github.com/Oversee/Travel-LBFSoap"
-  # spec.files         = `git ls-files -z`.split("\x0")
-  spec.files         = Dir['lib/lbf.rb'] + Dir['lib/lbf/*.rb']
+  spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
