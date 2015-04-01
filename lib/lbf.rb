@@ -1,0 +1,22 @@
+module LBF
+end
+require 'lbf/version'
+require 'lbf/lbf_client'
+require 'lbf/lbf_request'
+require 'lbf/lbf_response'
+require 'lbf/lbf_exceptions'
+require 'lbf/lbf_quote'
+require 'lbf/lbf_trip'
+require 'lbf/lbf_traveler'
+require 'lbf/lbf_fare'
+require 'lbf/lbf_segment'
+require 'lbf/lbf_plane'
+require 'lbf/lbf_layover'
+require 'lbf/deep_fetch'
+require 'savon'
+require 'pp'
+require 'date'
+require 'active_support/all'
+require 'ipaddr'
+require 'bigdecimal'
+I18n.config.enforce_available_locales = false
